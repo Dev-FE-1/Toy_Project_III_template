@@ -1,9 +1,12 @@
-name: ✨ Feature
+name: Enhancement Features
 description: 새로운 기능이나 명세가 있나요?
-title: "[feat] "
-labels: ["✨ Feature"]
+title: "[enhancement] "
+labels: ["enhancement"]
 projects: ["Dev-FE-1/N"]
 body:
+  - type: markdown
+    attributes:
+      value: "**주의: 이슈 생성 후 Assignee로 지정해 주세요.**"
   - type: textarea
     id: feature-description
     attributes:

@@ -1,9 +1,12 @@
-name: 📃 Docs
+name: Documentation
 description: 문서 추가/수정/삭제가 필요한가요?
-title: "[docs] "
-labels: ["📃 Docs"]
+title: "[documentation] "
+labels: ["documentation"]
 projects: ["Dev-FE-1/N"]
 body:
+  - type: markdown
+    attributes:
+      value: "**주의: 이슈 생성 후 Assignee로 지정해 주세요.**"
   - type: textarea
     id: docs-description
     attributes:

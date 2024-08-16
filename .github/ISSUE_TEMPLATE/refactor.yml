@@ -1,9 +1,12 @@
-name: 🔨 Refactor
+name: Refactor
 description: 리팩토링이 필요한가요?
 title: "[refactor] "
-labels: ["🔨 Refactor"]
+labels: ["refactor"]
 projects: ["Dev-FE-1/N"]
 body:
+  - type: markdown
+    attributes:
+      value: "**주의: 이슈 생성 후 Assignee로 지정해 주세요.**"
   - type: textarea
     id: refactor-description
     attributes:

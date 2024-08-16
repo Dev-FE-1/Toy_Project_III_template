@@ -1,9 +1,12 @@
-name: 🐞 Bug
+name: Bug 
 description: 버그가 발생했나요?
-title: "[fix] "
-labels: ["🐞 BugFix"]
+title: "[bug] "
+labels: ["bug"]
 projects: ["Dev-FE-1/N"]
 body:
+  - type: markdown
+    attributes:
+      value: "**주의: 이슈 생성 후 Assignee로 지정해 주세요.**"
   - type: textarea
     id: bug-description
     attributes:
