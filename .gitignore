@@ -128,3 +128,24 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+# APi Keys
+.env
+premissions.json
+
+# rollup-plugin-visualizer
+stats.html
+
+# Github에 올리고 싶지 않은 임시 파일
+.tmp
+
+
+# Editor directories and files
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
